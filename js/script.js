@@ -1,12 +1,6 @@
 const container = document.getElementsByTagName("body");
 const kotak = document.getElementsByClassName("kotak");
-const merah = document.getElementById("merah");
-const kuning = document.getElementById("kuning");
-const hijau = document.getElementById("hijau");
-const biru = document.getElementById("biru");
-const coklat = document.getElementById("coklat");
-
-const warna = document.getElementById("input-box").value;
+// const merah = document.getElementById("red");
 
 // merah.addEventListener("click", function () {
 // 	container[0].style.backgroundColor = "red";
@@ -24,4 +18,8 @@ const button = document.getElementsByTagName("button");
 
 button[0].addEventListener("click", function () {
 	container[0].style.backgroundColor = input.value;
+});
+
+button[1].addEventListener("click", function () {
+	container[0].style.backgroundColor = "white";
 });
