@@ -1,0 +1,53 @@
+.container {
+	display: flex;
+}
+
+.kotak {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+	border: 2px solid white;
+}
+
+#red {
+	background-color: red;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#green {
+	background-color: green;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#brown {
+	background-color: brown;
+}
+
+#input-box {
+	width: 300px;
+	height: 20px;
+	margin-top: 10px;
+	padding: 8px;
+
+	font-size: 16px;
+	border-radius: 8px;
+}
+
+#ganti-warna {
+	padding: 10px 20px;
+	color: white;
+	background-color: blue;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#ganti-warna:hover {
+	color: black;
+	background-color: aqua;
+}
